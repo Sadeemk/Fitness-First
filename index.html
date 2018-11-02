@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>FitnessFirst</title>
+   <script src="navigation.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+
+
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#">Home</a>
+    <a href="./routines.html">Routines</a>
+    <a href="./videos.html">Videos</a>
+    <a href="#">Machines</a>
+  </div>
+
+<!-- Use any element to open the sidenav -->
+<span onclick="openNav()"><strong>Navigation</strong></span>
+<div id="main">
+
+  <div>
+    <h1 class="welcome">Welcome to FitnessFirst</h1>
+    <p class="welcome">~ Generic Text Here ~</p>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="Bodybuilding">
+        <button onclick="myFunction()" class="dropbtn">Bodybuilding</button>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="#upper">Upper Body</a>
+            <a href="#lower">Lower Body</a>
+            <a href="#push">Push</a>
+            <a href="#pull">Pull</a>
+            <a href="#powerlifting">Power Lifting</a>
+            <a href="./routines.html">See More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="Bodybuilding">
+        <button onclick="myFunction()" class="dropbtn">Cardio</button>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="#upper">Interval Training</a>
+            <a href="#lower">Sprinting</a>
+            <a href="#tbd">more tbd</a>
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
