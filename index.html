@@ -16,7 +16,7 @@
 
   <div id="mySidenav" class="sidenav">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <a href="#">About</a>
+    <a href="./home.html">Home</a>
     <a href="./routines.html">Routines</a>
     <a href="./videos.html">Videos</a>
     <a href="#">Machines</a>
@@ -34,20 +34,27 @@
   <div class="container">
     <div class="row">
       <div class="col-sm-4">
-        <h3>Bodybuilding</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+        <div class="Bodybuilding">
+        <button onclick="myFunction()" class="dropbtn">Bodybuilding</button>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="#upper">Upper Body</a>
+            <a href="#lower">Lower Body</a>
+            <a href="#push">Push</a>
+            <a href="#pull">Pull</a>
+            <a href="#powerlifting">Power Lifting</a>
+            <a href="./routines.html">See More</a>
+          </div>
+        </div>
       </div>
       <div class="col-sm-4">
-        <h3>Cardio</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-      </div>
-      <div class="col-sm-12">
-        <h3>See More</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-      </div>
+        <div class="Bodybuilding">
+        <button onclick="myFunction()" class="dropbtn">Cardio</button>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="#upper">Interval Training</a>
+            <a href="#lower">Sprinting</a>
+            <a href="#tbd">more tbd</a>
+          </div>
+        </div>
     </div>
   </div>
 </div>
