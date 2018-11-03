@@ -12,18 +12,41 @@
    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
 }
 
-.welcome {
-  text-align: center;  
+/* container to wrap videos */
+.video-container {
+  float: none;
+  clear: both;
+  width: 100%;
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0;
 }
 
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.welcome {
+  text-align: center;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+}
 /* The navigation menu links */
 .sidenav a {
-   padding: 8px 8px 8px 32px;
-   text-decoration: none;
-   font-size: 25px;
-   color: #818181;
-   display: block;
-   transition: 0.3s;
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
 }
 
 /* When you mouse over the navigation links, change their color */
@@ -42,8 +65,9 @@
 
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 #main {
-   transition: margin-left .5s;
-   padding: 20px;
+  transition: margin-left .5s;
+  padding: 20px;
+  margin-top: 30px;
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
