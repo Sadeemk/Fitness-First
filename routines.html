@@ -1,51 +1,70 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+
+<html>
 <head>
-  <title>FitnessFirst</title>
-   <script src="navigation.js"></script>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="./css/index.css">
-  <link rel="stylesheet" href="./css/routines.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>FitnessFirst | Routines</title>
+	<link rel="stylesheet" href="./cssPages/routines.css">
+	<link rel="stylesheet" href="./cssTools/headerfooter.css">
+	<link rel="stylesheet" href="./cssTools/navigation.css">
+	<link rel="stylesheet" href="./cssTools/hoverbutton.css">
+	<link rel="stylesheet" href="./cssTools/linklist.css">
+	<script src="./js/navigation.js"></script>
 </head>
+
 <body>
+	<!-- this is a comment in HTML -->
 
-
-
-  <div id="mySidenav" class="sidenav">
+	<nav id="mySidenav" class="sidenav">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     <a href="./index.html">Home</a>
     <a href="./routines.html">Routines</a>
     <a href="./videos.html">Videos</a>
 <!--    <a href="#">Machines</a> -->
-  </div>
+</nav>
 
-<!-- Use any element to opepn the sidenav -->
-<span onclick="openNav()"><strong>Navigation</strong></span>
-<div id="main">
-  <h1>Routines</h1>
-  <p>Select a Routine to learn more</p>
-  <div class="container">
-    <div class="row">
+	<header>
+		<span onclick="openNav()"><img src="./images/navicon.png"></img></span>
+	<h1>Fitness First</h1> <!-- h1 through h5 are headers. The higher the number, the smaller the header -->
+</header>
 
-      <div class="col-sm-4" align="center" style="background-color:yellow;">
-        <a href="./chest.html" class="button1">Chest</a>
-      </div>
-      <div class="col-sm-4" style="background-color:pink;">
-        <p>Routine 2</p>
-      </div>
-      <div class="col-sm-4" style="background-color:yellow;">
-        <p>Routine 3</p>
-      </div>
-    <div>
+<nav>
+	<ul class="linklist">
+	  <li><a href="./index.html" class="buttoninline">Home</a></li>
+	  <li><a href="./routines.html" class="buttoninline">Routines</a></li>
+	</ul>
+</nav>
 
-    </div>
-  </div>
-  </div>
+<main class="wrapper">
+<div class="wrap">
+	<a href="./subroutines.html" class="hoverbutton">Chest</a>
 </div>
 
+<div class="wrap">
+	<a href="./subroutines.html" class="hoverbutton">UpperBody</a>
+</div>
+
+<div class="wrap">
+	<a href="./subroutines.html" class="hoverbutton">LowerBody</a>
+</div>
+
+<div class="wrap">
+	<a href="./subroutines.html" class="hoverbutton">Legs</a>
+</div>
+
+<div class="wrap">
+	<a href="./subroutines.html" class="hoverbutton">Push</a>
+</div>
+
+<div class="wrap">
+	<a href="./subroutines.html" class="hoverbutton">Pull</a>
+</div>
+
+</main>
+
+<footer>
+	<p>Copyright UCSD 2018</p>
+</footer>
 </body>
 </html>

@@ -1,0 +1,28 @@
+.hoverbutton {
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    display: inline-block;
+    padding: 40px;
+    width: 150px;
+
+    background-color: #00DCFF;
+    border: 2px solid #00DCFF;
+    border-radius: 20px;
+
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.hoverbutton:hover {
+    background-color: #2E93A4;
+    border: 2px solid #2E93A4;
+    }
+
+ .hoverbutton:focus{
+ 	color: #2E93A4;
+ 	background-color: white;
+    border: 2px solid #2E93A4;
+ }
