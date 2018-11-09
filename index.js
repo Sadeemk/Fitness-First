@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 /* Christie was here. */
+=======
+// testing git pulling
+// hello Christie
+
+
+>>>>>>> c5dc41befedac84b9d56feb0f1460ee12fa3acfc
 function goBack() {
     window.history.back();
 }
