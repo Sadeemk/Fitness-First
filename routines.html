@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <title>FitnessFirst</title>
+  <script src="index.js"></script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="./css/index.css">
@@ -35,15 +36,22 @@
   <div class="container">
     <div class="row">
 
+      <!-- divide them by 12, look into bootstrap styling -->
+      <a class="button-link" href="?project=Chest">Chest</a> <br>
+      <a class="button-link" href="?project=Shoulders">Shoulders</a> <br>
+      <a class="button-link" href="?project=Back">Back</a> <br>
+      <a class="button-link" href="?project=Legs">Legs</a> <br>
+      <a class="button-link" href="?project=Arms">Arms</a> <br>
+
       <!-- Entry template -->
       <script id="entry-template" type="text/x-handlebars-template">
         <div class='project'>
-            <a class="button-link" href="">{{name}}</a>
+            <a class="button-link" href="./chest.html">{{name}}</a>
             <p>{{description}}</p>
+            <button class="back-button" onclick="goBack()">Go Back</a>
           </div>
       </div>
       </script>
-
 
     <div id="templatedExercises">
 
@@ -56,5 +64,6 @@
 <script src="https://code.jquery.com/jquery.js"></script>
 <script src="handlebars-v4.0.11.js"></script>
 <script src="navigation.js"></script>
+<script src="index.js"></script>
 <script src="template.js"></script>
 </html>
