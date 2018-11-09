@@ -45,19 +45,15 @@
             {{#exercises}}
             {{#exercise}}
             <div class="col-sm-12" id="exercise-name">
-              <p>{{name}}</p>
+              <p>{{names}}</p>
+            </div>
+
+            <div class="col-sm-12" id="exercise-video">
+              {{!-- {{Youtube Video}} --}}
+                <p>{{video}}</p> <br>
             </div>
             {{/exercise}}
             {{/exercises}}
-            <div class="col-sm-8" id="exercise-video">
-              {{!-- {{Youtube Video}} --}}
-              <div class="video-container">
-                <!--
-                <iframe width="560" height="315" {{bindAttr src="video"}} frameborder="0" allowfullscreen>
-                </iframe>
-                -->
-              </div>
-            </div>
           </div>
 
           <button class="back-button" onclick="goBack()">Back</button>

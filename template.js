@@ -9,33 +9,38 @@ var json = [
         {"note":"Lighten the weight for slightly higher reps on each set after your first 1-2 sets of each movement."},
         {"note":"If you have a spotter, do a few forced reps on your heaviest set of each exercise, which should be your first or second set. If you don't have a partner, train as close to muscle failure as possible, and perform a dropset on your last set of each exercise."}
     ],
-    "exercises": {
-      "exercise": {
-          "name": "Dumbbell Bench Press",
-          "sets": "4 sets x 6-8 reps",
-          "video": "https://www.youtube.com/embed/gRVjAtPip0Y"
+    "exercises": [
+      {"exercise": [
+          {"names": "Dumbbell Bench Press"},
+          {"sets": "4 sets x 6-8 reps"},
+          {"video": "https://www.youtube.com/embed/gRVjAtPip0Y"}
+        ]
       },
-      "exercise": {
-          "name": "Barbell Incline Bench Press Medium-Grip",
-          "sets": "3 sets x 8-10 reps",
-          "video": "https://www.youtube.com/embed/SrqOu55lrYU"
+      {"exercise": [
+          {"names": "Barbell Incline Bench Press Medium-Grip"},
+          {"sets": "3 sets x 8-10 reps"},
+          {"video": "https://www.youtube.com/embed/SrqOu55lrYU"}
+        ]
       },
-      "exercise": {
-          "name": "Leverage Decline Chest Press",
-          "sets": "3 sets x 8-10 reps",
-          "video": "https://www.youtube.com/embed/xK9zpXvjFUg"
+      {"exercise":[
+          {"names": "Leverage Decline Chest Press"},
+          {"sets": "3 sets x 8-10 reps"},
+          {"video": "https://www.youtube.com/embed/xK9zpXvjFUg"}
+        ]
       },
-      "exercise": {
-          "name": "Incline Dumbbell Flyes",
-          "sets": "3 sets x 8-10 reps",
-          "video": "https://www.youtube.com/embed/xK9zpXvjFUg"
+      {"exercise": [
+          {"names": "Incline Dumbbell Flyes"},
+          {"sets": "3 sets x 8-10 reps"},
+          {"video": "https://www.youtube.com/embed/xK9zpXvjFUg"}
+        ]
       },
-      "exercise": {
-          "name": "Butterfly",
-          "sets": "3 sets x 12 reps",
-          "video": "https://www.youtube.com/embed/xK9zpXvjFUg"
+      {"exercise": [
+          {"names": "Butterfly"},
+          {"sets": "3 sets x 12 reps"},
+          {"video": "https://www.youtube.com/embed/xK9zpXvjFUg"}
+        ]
       }
-    }
+    ]
   },
   {
     "name": "Shoulders",
@@ -45,33 +50,38 @@ var json = [
         {"note":"Choose a weight that allows you to reach muscle failure by the target-rep listed"},
         {"note":"If you have a spotter, do a few forced reps on your heaviest sets of overhead presses. If you don't have a partner, do a dropset on your last set of each exercise, reducing the weight by about 25 percent when you reach muscle failure and continuing on to a second point of muscle failure."}
     ],
-    "exercises": {
-      "exercise-1": {
-          "name": "Dumbbell Shoulder Press",
-          "sets": "4 sets x 6-8 reps",
-          "video": "https://www.youtube.com/embed/gRVjAtPip0Y"
+    "exercises": [
+      {"exercise": [
+          {"names": "Dumbbell Shoulder Press"},
+          {"sets": "4 sets x 6-8 reps"},
+          {"video": "https://www.youtube.com/embed/gRVjAtPip0Y"}
+        ]
       },
-      "exercise-2": {
-          "name": "Upright Barbell Row",
-          "sets": "3 sets x 8-10 reps",
-          "video": "https://www.youtube.com/embed/SrqOu55lrYU"
+      {"exercise": [
+          {"names": "Upright Barbell Row"},
+          {"sets": "3 sets x 8-10 reps"},
+          {"video": "https://www.youtube.com/embed/SrqOu55lrYU"}
+        ]
       },
-      "exercise-3": {
-          "name": "Seated Bent-Over Rear Delt Raise",
-          "sets": "3 sets x 8-10 reps",
-          "video": "https://www.youtube.com/embed/xK9zpXvjFUg"
+      {"exercise": [
+          {"names": "Seated Bent-Over Rear Delt Raise"},
+          {"sets": "3 sets x 8-10 reps"},
+          {"video": "https://www.youtube.com/embed/xK9zpXvjFUg"}
+        ]
       },
-      "exercise-4": {
-          "name": "Side Lateral Raise",
-          "sets": "3 sets x 10-12 reps",
-          "video": "https://www.youtube.com/embed/xK9zpXvjFUg"
+      {"exercise": [
+          {"names": "Side Lateral Raise"},
+          {"sets": "3 sets x 10-12 reps"},
+          {"video": "https://www.youtube.com/embed/xK9zpXvjFUg"}
+        ]
       },
-      "exercise-5": {
-          "name": "Standing Front Barbell Raise Over Head",
-          "sets": "3 sets x 12 reps",
-          "video": "https://www.youtube.com/embed/xK9zpXvjFUg"
+      {"exercise": [
+          {"names": "Standing Front Barbell Raise Over Head"},
+          {"sets": "3 sets x 12 reps"},
+          {"video": "https://www.youtube.com/embed/xK9zpXvjFUg"}
+        ]
       }
-    }
+    ]
   },
   {
     "name": "Back",
@@ -82,33 +92,38 @@ var json = [
         {"note":"Holding onto the bar or weight, drive you elbows as far back as possible trying to pinch your shoulder blades together."},
         {"note": "Feel your muscles contract and leave your ego at the door. Too many beginners use way to much weight and never feel the muscle working."}
     ],
-    "exercises": {
-      "exercise-1": {
-          "name": "Bent Over Barbell Row",
-          "sets": "3 sets x 6-8 reps",
-          "video": "https://www.youtube.com/embed/gRVjAtPip0Y"
+    "exercises": [
+      {"exercise": [
+          {"names": "Bent Over Barbell Row"},
+          {"sets": "3 sets x 6-8 reps"},
+          {"video": "https://www.youtube.com/embed/gRVjAtPip0Y"}
+        ]
       },
-      "exercise-2": {
-          "name": "Seated Cable Rows",
-          "sets": "3 sets x 10-12 reps",
-          "video": "https://www.youtube.com/embed/SrqOu55lrYU"
+      {"exercise": [
+          {"names": "Seated Cable Rows"},
+          {"sets": "3 sets x 10-12 reps"},
+          {"video": "https://www.youtube.com/embed/SrqOu55lrYU"}
+        ]
       },
-      "exercise-3": {
-          "name": "V-Bar Pulldown",
-          "sets": "3 sets x 8-10 reps",
-          "video": "https://www.youtube.com/embed/xK9zpXvjFUg"
+      {"exercise": [
+          {"names": "V-Bar Pulldown"},
+          {"sets": "3 sets x 8-10 reps"},
+          {"video": "https://www.youtube.com/embed/xK9zpXvjFUg"}
+        ]
       },
-      "exercise-4": {
-          "name": "Barbell Shrug",
-          "sets": "3 sets x 6-8 reps",
-          "video": "https://www.youtube.com/embed/xK9zpXvjFUg"
+      {"exercise": [
+          {"names": "Barbell Shrug"},
+          {"sets": "3 sets x 6-8 reps"},
+          {"video": "https://www.youtube.com/embed/xK9zpXvjFUg"}
+        ]
       },
-      "exercise-5": {
-          "name": "Hyperextensions (Back Extensions)",
-          "sets": "3 sets x 12 reps",
-          "video": "https://www.youtube.com/embed/xK9zpXvjFUg"
+      {"exercise": [
+          {"names": "Hyperextensions (Back Extensions)"},
+          {"sets": "3 sets x 12 reps"},
+          {"video": "https://www.youtube.com/embed/xK9zpXvjFUg"}
+        ]
       }
-    }
+    ]
   },
   {
     "name": "Legs",
@@ -118,38 +133,44 @@ var json = [
         {"note":"All exercises should be performed in perfect form because bad form or habits you start now will follow you and will lead to lack of progress—or worse, an injury in the future."},
         {"note":"Now that you understand which muscles make up your legs, their function, location, how to contract your back and the rep range needed to stimulate it, let's give you some workouts to help you build your legs."}
     ],
-    "exercises": {
-      "exercise-1": {
-          "name": "Barbell Squat",
-          "sets": "4 sets x 6-8 reps",
-          "video": "https://www.youtube.com/embed/gRVjAtPip0Y"
+    "exercises": [
+      {"exercise": [
+          {"names": "Barbell Squat"},
+          {"sets": "4 sets x 6-8 reps"},
+          {"video": "https://www.youtube.com/embed/gRVjAtPip0Y"}
+        ]
       },
-      "exercise-2": {
-          "name": "Dumbbell Lunges",
-          "sets": "4 sets x 12 reps",
-          "video": "https://www.youtube.com/embed/SrqOu55lrYU"
+      {"exercise": [
+          {"names": "Dumbbell Lunges"},
+          {"sets": "4 sets x 12 reps"},
+          {"video": "https://www.youtube.com/embed/SrqOu55lrYU"}
+        ]
       },
-      "exercise-3": {
-          "name": "Leg Press",
-          "sets": "3 sets x 8-10 reps",
-          "video": "https://www.youtube.com/embed/xK9zpXvjFUg"
+      {"exercise": [
+          {"names": "Leg Press"},
+          {"sets": "3 sets x 8-10 reps"},
+          {"video": "https://www.youtube.com/embed/xK9zpXvjFUg"}
+        ]
       },
-      "exercise-4": {
-          "name": "Lying Leg Curls",
-          "sets": "3 sets x 12 reps",
-          "video": "https://www.youtube.com/embed/xK9zpXvjFUg"
+      {"exercise": [
+          {"names": "Lying Leg Curls"},
+          {"sets": "3 sets x 12 reps"},
+          {"video": "https://www.youtube.com/embed/xK9zpXvjFUg"}
+        ]
       },
-      "exercise-5": {
-          "name": "Leg Extensions",
-          "sets": "3 sets x 20 reps",
-          "video": "https://www.youtube.com/embed/xK9zpXvjFUg"
+      {"exercise": [
+          {"names": "Leg Extensions"},
+          {"sets": "3 sets x 20 reps"},
+          {"video": "https://www.youtube.com/embed/xK9zpXvjFUg"}
+        ]
       },
-      "exercise-6": {
-          "name": "Standing Calf Raises",
-          "sets": "4 sets x 12 reps",
-          "video": "https://www.youtube.com/embed/xK9zpXvjFUg"
+      {"exercise": [
+          {"names": "Standing Calf Raises"},
+          {"sets": "4 sets x 12 reps"},
+          {"video": "https://www.youtube.com/embed/xK9zpXvjFUg"}
+        ]
       }
-    }
+    ]
   },
   {
     "name": "Arms",
@@ -157,31 +178,34 @@ var json = [
     "notes": [
         {"note": "Start with your big-ticket strength movements, then chase a pump to your heart's content. Take both equally seriously, and you'll see improvement in both your core lifts and your mirror muscles!"}
     ],
-    "exercises": {
-      "exercise-1": {
-          "name": "Incline Dumbbell Curl",
-          "sets": "4 sets x 10 reps",
-          "video": "https://www.youtube.com/embed/gRVjAtPip0Y"
+    "exercises": [
+      {"exercise": [
+          {"names": "Incline Dumbbell Curl"},
+          {"sets": "4 sets x 10 reps"},
+          {"video": "https://www.youtube.com/embed/gRVjAtPip0Y"}
+        ]
       },
-      "exercise-2": {
-          "name": "Hammer Curls",
-          "sets": "4 sets x 10 reps",
-          "video": "https://www.youtube.com/embed/SrqOu55lrYU"
+      {"exercise": [
+          {"names": "Hammer Curls"},
+          {"sets": "4 sets x 10 reps"},
+          {"video": "https://www.youtube.com/embed/SrqOu55lrYU"}
+        ]
       },
-      "exercise-3": {
-          "name": "Close-Grip EZ Bar Curl",
-          "sets": "4 sets x 10 reps",
-          "video": "https://www.youtube.com/embed/xK9zpXvjFUg"
+      {"exercise": [
+          {"names": "Close-Grip EZ Bar Curl"},
+          {"sets": "4 sets x 10 reps"},
+          {"video": "https://www.youtube.com/embed/xK9zpXvjFUg"}
+        ]
       },
-      "exercise-4": {
-          "name": "EZ-Bar Curl",
-          "sets": "5 sets x 12, 10, 8, 8, 6 reps",
-          "video": "https://www.youtube.com/embed/xK9zpXvjFUg"
+      {"exercise": [
+          {"names": "EZ-Bar Curl"},
+          {"sets": "5 sets x 12, 10, 8, 8, 6 reps"},
+          {"video": "https://www.youtube.com/embed/xK9zpXvjFUg"}
+        ]
       }
-    }
+    ]
   }
 ]
-
 
 var queryParams = new URLSearchParams(window.location.search);
 var projectTitle = queryParams.get('project');

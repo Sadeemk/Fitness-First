@@ -12,14 +12,12 @@
 </head>
 <body>
 
-
-
   <div id="mySidenav" class="sidenav">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     <a href="./index.html">Home</a>
     <a href="./routines.html">Routines</a>
     <a href="./videos.html">Videos</a>
-<!-- <a href="#">Machines</a> -->
+    <!-- <a href="#">Machines</a> -->
   </div>
 
 <!-- Use any element to open the sidenav -->
@@ -35,20 +33,20 @@
     <div class="row">
       <div class="col-sm-4">
         <div class="Bodybuilding">
-        <button onclick="myFunction()" class="dropbtn">Bodybuilding</button>
+        <button onclick="myFunction(this)" class="dropbtn">Bodybuilding</button>
           <div id="myDropdown" class="dropdown-content">
-            <a href="./exercise.html?project=Chest">Chest</a>
-            <a href="./exercise.html?project=Legs">Legs</a>
-            <a href="./exercise.html?project=Arms">Arms</a>
-            <a href="./exercise.html?project=Back">Back</a>
-            <a href="./exercise.html?project=Shoulders">Shoulders</a>
+            <a href="#upper">Upper Body</a>
+            <a href="#lower">Lower Body</a>
+            <a href="#push">Push</a>
+            <a href="#pull">Pull</a>
+            <a href="#powerlifting">Power Lifting</a>
             <a href="./routines.html">See More</a>
           </div>
         </div>
       </div>
       <div class="col-sm-4">
         <div class="Bodybuilding">
-        <button onclick="myFunction()" class="dropbtn">Cardio</button>
+        <button onclick="myFunction(this)" class="dropbtn">Cardio</button>
           <div id="myDropdown" class="dropdown-content">
             <a href="#upper">Interval Training</a>
             <a href="#lower">Sprinting</a>

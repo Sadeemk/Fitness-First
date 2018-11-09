@@ -6,8 +6,9 @@ function goBackRoutine() {
     window.location = "./routines.html";
 }
 
-function myFunction() {
-    document.getElementById("myDropdown").classList.toggle("show");
+function myFunction(e) {
+  var dropdown = e.parentNode.getElementsByClassName('dropdown-content')[0];
+  dropdown.classList.toggle("show");
 }
 
 // Close the dropdown menu if the user clicks outside of it
