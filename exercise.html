@@ -33,14 +33,51 @@
     <!-- Entry template -->
     <script id="entry-template" type="text/x-handlebars-template">
       <div class='project'>
+          {{!-- {{Title and Notes}} --}}
           <h1 class="body-group-header">{{name}}</h1>
-          <p>{{description}}</p> <br>
           {{#notes}}
           <ul>
             <li>{{note}}</li>
           </ul>
           {{/notes}}
-          <button class="back-button" onclick="goBack()">Go Back</button>
+          {{!-- {{Exercises and Videos}} --}}
+          <div class="row">
+            {{#exercises}}
+            {{#exercise}}
+            <div class="col-sm-12" id="exercise-name">
+              <p>{{name}}</p>
+            </div>
+            {{/exercise}}
+            {{/exercises}}
+            <div class="col-sm-8" id="exercise-video">
+              {{!-- {{Youtube Video}} --}}
+              <div class="video-container">
+                <iframe width="560" height="315" {{bindAttr src="video"}} frameborder="0" allowfullscreen>
+                </iframe>
+              </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+          </div>
+
+
+          <button class="back-button" onclick="goBack()">Back</button>
         </div>
     </script>
 

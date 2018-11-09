@@ -8,27 +8,27 @@
         {"note":"If you have a spotter, do a few forced reps on your heaviest set of each exercise, which should be your first or second set. If you don't have a partner, train as close to muscle failure as possible, and perform a dropset on your last set of each exercise."}
     ],
     "exercises": {
-      "exercise-1": {
+      "exercise": {
           "name": "Dumbbell Bench Press",
           "sets": "4 sets x 6-8 reps",
           "video": "https://www.youtube.com/embed/gRVjAtPip0Y"
       },
-      "exercise-2": {
+      "exercise": {
           "name": "Barbell Incline Bench Press Medium-Grip",
           "sets": "3 sets x 8-10 reps",
           "video": "https://www.youtube.com/embed/SrqOu55lrYU"
       },
-      "exercise-3": {
+      "exercise": {
           "name": "Leverage Decline Chest Press",
           "sets": "3 sets x 8-10 reps",
           "video": "https://www.youtube.com/embed/xK9zpXvjFUg"
       },
-      "exercise-4": {
+      "exercise": {
           "name": "Incline Dumbbell Flyes",
           "sets": "3 sets x 8-10 reps",
           "video": "https://www.youtube.com/embed/xK9zpXvjFUg"
       },
-      "exercise-5": {
+      "exercise": {
           "name": "Butterfly",
           "sets": "3 sets x 12 reps",
           "video": "https://www.youtube.com/embed/xK9zpXvjFUg"
