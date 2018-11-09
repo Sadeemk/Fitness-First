@@ -3,9 +3,14 @@ var queryParams = new URLSearchParams(window.location.search);
 var projectTitle = queryParams.get('project');
 console.log('query for', projectTitle);
 
+$.getJSON("http://penarichard53.github.io/fitness-first/exercise.json", function(data) {
+  json = data;
+});
 
 $.getJSON("./exercise.json", function(data) {
-  json = data;
+  if(json == undefined){
+    json = data;
+  }
 });
 
 $(document).ready(function () {
