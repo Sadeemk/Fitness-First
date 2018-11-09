@@ -9,7 +9,7 @@ $.getJSON("./exercise.json", function(data) {
 });
 
 $(document).ready(function () {
-  // console.log(json);
+  console.log(json);
 
 
   var source    = $('#entry-template').html();
