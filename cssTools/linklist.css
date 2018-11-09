@@ -1,3 +1,4 @@
+/* .linklist goes on ul */
 .linklist {
 	list-style-type: none;
     margin: 0;
@@ -5,7 +6,7 @@
     overflow: hidden;
     background-color: #191;
 }
-
+/* .buttoninline goes on a in li */
 .buttoninline {
     background-color: #4CAF50;
     border: none;
@@ -18,5 +19,10 @@
     margin: 0px 0px;
     float: left;
     cursor: pointer;
-    font-size: 20px;
+}
+
+@media screen and (max-width: 499px) {
+   .buttoninline {
+		 padding: 3% 3%;
+   }
 }

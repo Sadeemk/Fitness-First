@@ -10,8 +10,8 @@ header {
   background-color: #f1f1f1;
   padding: 1px;
   color: white;
-  font-size: 28px;
-  height: 80px;
+  font-size: calc(.9em + 1vw);
+  height: 10%;
   width: 100%;
   overflow: hidden;
 }
@@ -57,4 +57,9 @@ footer {
 
 footer p {
   margin: auto;
+}
+
+@media screen and (max-width: 499px) {
+   header {
+   }
 }
