@@ -13,8 +13,6 @@
 </head>
 <body>
 
-
-
   <div id="mySidenav" class="sidenav">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     <a href="./index.html">Home</a>
@@ -44,8 +42,9 @@
       <a class="button-link" href="?project=Arms">Arms</a> <br>
 
       <!-- Entry template -->
+      <!-- don't touch id -->
       <script id="entry-template" type="text/x-handlebars-template">
-        <div class='project'>
+        <div class='project'> <!-- don't touch -->
             <a class="button-link" href="./exercise.html?project={{name}}">{{name}}</a>
             <p>{{description}}</p>
             <button class="back-button" onclick="goBackRoutine()">Hide</a>
@@ -53,7 +52,7 @@
       </div>
       </script>
 
-    <div id="templatedExercises">
+    <div id="templatedExercises"> <!-- don't touch -->
 
     </div>
   </div>
