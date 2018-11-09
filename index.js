@@ -1,4 +1,4 @@
-// testing git pulling
+// testing git pull
 // hello Christie
 
 
