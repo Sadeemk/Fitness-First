@@ -1,3 +1,5 @@
+var json;
+
 var json = [
   {
     "name": "Chest",
@@ -181,7 +183,6 @@ var json = [
 ]
 
 
-var json;
 var queryParams = new URLSearchParams(window.location.search);
 var projectTitle = queryParams.get('project');
 console.log('query for', projectTitle);
