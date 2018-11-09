@@ -2,11 +2,11 @@
   {
     "name": "Chest",
     "description": "The workout here follows a reverse-pyramid protocol, which allows you to take more total sets to muscle failure. It also starts with the dumbbell bench press rather than the barbell, because dumbbells are more difficult to control—extra difficulty is a good thing in this case—and allow for a greater range of motion. Many people find that just making that switch is enough to spur new growth.",
-    "notes": {
-        "1": "Choose a weight that allows you to reach muscle failure by the target rep listed.",
-        "2":"Lighten the weight for slightly higher reps on each set after your first 1-2 sets of each movement.",
-        "3":"If you have a spotter, do a few forced reps on your heaviest set of each exercise, which should be your first or second set. If you don't have a partner, train as close to muscle failure as possible, and perform a dropset on your last set of each exercise."
-    },
+    "notes": [
+        {"note": "Choose a weight that allows you to reach muscle failure by the target rep listed."},
+        {"note":"Lighten the weight for slightly higher reps on each set after your first 1-2 sets of each movement."},
+        {"note":"If you have a spotter, do a few forced reps on your heaviest set of each exercise, which should be your first or second set. If you don't have a partner, train as close to muscle failure as possible, and perform a dropset on your last set of each exercise."}
+    ],
     "exercises": {
       "exercise-1": {
           "name": "Dumbbell Bench Press",
