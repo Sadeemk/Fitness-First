@@ -1,68 +1,72 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <title>FitnessFirst</title>
-  <script src="index.js"></script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="./css/index.css">
-  <link rel="stylesheet" href="./css/routines.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <title>FitnessFirst | Routines</title>
+  <link rel="stylesheet" href="./cssPages/routines.css">
+  <link rel="stylesheet" href="./cssTools/headerfooter.css">
+  <link rel="stylesheet" href="./cssTools/navigation.css">
+  <link rel="stylesheet" href="./cssTools/hoverbutton.css">
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="handlebars-v4.0.11.js"></script>
+  <script src="navigation.js"></script>
+  <script src="./js/index.js"></script>
+  <script src="template.js"></script>
 </head>
-<body>
 
-  <div id="mySidenav" class="sidenav">
+<body>
+  <nav id="mySidenav" class="sidenav">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     <a href="./index.html">Home</a>
     <a href="./routines.html">Routines</a>
-    <a href="./videos.html">Videos</a>
 <!--    <a href="#">Machines</a> -->
-  </div>
+</nav>
 
-<!-- Use any element to opepn the sidenav -->
-<span onclick="openNav()"><strong>Navigation</strong></span>
-<div id="main">
-  <div>
-    <h1 class="welcome">Welcome to FitnessFirst</h1>
-    <p class="welcome">~ Generic Text Here ~</p>
-  </div>
+	<header>
+		<span onclick="openNav()"><img src="./images/navicon.png"></img></span>
+	<h1>Fitness First</h1>
+</header>
 
   <h1>Routines</h1>
   <p>Select a Routine to learn more</p>
-  <div class="container">
-    <div class="row">
-
-      <!-- divide them by 12, look into bootstrap styling -->
-      <a class="button-link" href="?project=Chest">Chest</a> <br>
-      <a class="button-link" href="?project=Shoulders">Shoulders</a> <br>
-      <a class="button-link" href="?project=Back">Back</a> <br>
-      <a class="button-link" href="?project=Legs">Legs</a> <br>
-      <a class="button-link" href="?project=Arms">Arms</a> <br>
-
+  <main class="wrapper">
+    <div class="wrap">
+      <a class="hoverbutton" href="?project=Chest">Chest</a>
+    </div>
+    <div class="wrap">
+      <a class="hoverbutton" href="?project=Shoulders">Shoulders</a>
+    </div>
+    <div class="wrap">
+      <a class="hoverbutton" href="?project=Back">Back</a>
+    </div>
+    <div class="wrap">
+      <a class="hoverbutton" href="?project=Legs">Legs</a>
+    </div>
+    <div class="wrap">
+      <a class="hoverbutton" href="?project=Arms">Arms</a>
+    </div>
+</main>
       <!-- Entry template -->
       <!-- don't touch id -->
       <script id="entry-template" type="text/x-handlebars-template">
         <div class='project'> <!-- don't touch -->
-            <a class="button-link" href="./exercise.html?project={{name}}">{{name}}</a>
+            <a href="./exercise.html?project={{name}}">{{name}}</a>
             <p>{{description}}</p>
             <button class="back-button" onclick="goBackRoutine()">Hide</a>
           </div>
-      </div>
       </script>
 
     <div id="templatedExercises"> <!-- don't touch -->
 
-    </div>
-  </div>
-  </div>
-</div>
+    </div>  <!-- End template -->
+
+
+<footer>
+	<p>Copyright UCSD 2018</p>
+</footer>
 
 </body>
-<script src="https://code.jquery.com/jquery.js"></script>
-<script src="handlebars-v4.0.11.js"></script>
-<script src="navigation.js"></script>
-<script src="index.js"></script>
-<script src="template.js"></script>
+
 </html>
