@@ -1,32 +1,35 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <title>FitnessFirst</title>
-   <script src="./navigation.js"></script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="./css/index.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <title>FitnessFirst | Exercise</title>
+  <link rel="stylesheet" href="./cssPages/exercise.css">
+  <link rel="stylesheet" href="./cssTools/headerfooter.css">
+  <link rel="stylesheet" href="./cssTools/navigation.css">
+
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="handlebars-v4.0.11.js"></script>
+  <script src="./js/navigation.js"></script>
+  <script src="template.js"></script> <!-- tailing script tags -->
+  <script src="./js/goBack.js"></script>
+
+
 </head>
+
 <body>
-
-
-  <!-- Navigation bar -->
-  <div id="mySidenav" class="sidenav">
+  <nav id="mySidenav" class="sidenav">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     <a href="./index.html">Home</a>
-    <a href="./routines.html">Routines</a>      
-  </div>
+    <a href="./routines.html">Routines</a>
+<!--    <a href="#">Machines</a> -->
+</nav>
 
-  <!-- Use any element to opepn the sidenav -->
-  <span onclick="openNav()"><strong>Navigation</strong></span>
-  <div id="main">
-    <div>
-      <h1 class="welcome">Welcome to FitnessFirst</h1>
-      <p class="welcome">~ Generic Text Here ~</p>
-    </div> <!-- Heading -->
+	<header>
+		<span onclick="openNav()"><img src="./images/navicon.png"></img></span>
+	<h1>Fitness First</h1>
+</header>
 
     <!-- Entry template --> <!-- dont touch script tags -->
     <script id="entry-template" type="text/x-handlebars-template">
@@ -61,10 +64,11 @@
   <div id="templatedExercises"></div> <!-- don't touch id -->
 
   </div> <!-- end of div main -->
+
+  <footer>
+  	<p>Copyright UCSD 2018</p>
+  </footer>
+
 </body>
-  <script src="https://code.jquery.com/jquery.js"></script>
-  <script src="handlebars-v4.0.11.js"></script>
-  <script src="navigation.js"></script>
-  <script src="index.js"></script>
-  <script src="template.js"></script> <!-- tailing script tags -->
+
 </html>
