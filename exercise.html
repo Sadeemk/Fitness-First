@@ -30,34 +30,37 @@
 		<span onclick="openNav()"><img src="./images/navicon.png"></img></span>
 	<h1>Fitness First</h1>
 </header>
-
+<button onclick="goBack()">Back</button>
     <!-- Entry template --> <!-- dont touch script tags -->
     <script id="entry-template" type="text/x-handlebars-template">
       <div class='project'> <!-- don't touch class -->
           {{!-- {{Title and Notes}} --}}
-          <h1 class="body-group-header">{{name}}</h1>
+          <h1 class="pageTitle">{{name}}</h1>
+
+<div class="notes"> <!-- CSS STYLING -->
+  <h2>Tips</h2>
           {{#notes}}
           <ul>
             <li>{{note}}</li>
           </ul>
           {{/notes}}
+</div><!-- end CSS STYLING -->
+
+<div class="exercisesandvideos"> <!-- CSS STYLING -->
+  <h2>Exercises</h2>
           {{!-- {{Exercises and Videos}} --}}
-          <div class="row">
+
             {{#exercises}}
             {{#exercise}}
-            <div class="col-sm-12" id="exercise-name">
-              <p>{{names}}</p>
-            </div>
-
-            <div class="col-sm-12" id="exercise-video">
-              {{!-- {{Youtube Video}} --}}
-                <p>{{video}}</p> <br>
-            </div>
+              <h3>{{names}}</h3>
+<h4>{{sets}}</h4>
+<p>{{video}}</p>
             {{/exercise}}
             {{/exercises}}
-          </div>
 
-          <button class="back-button" onclick="goBack()">Back</button>
+          </div><!-- end CSS STYLING -->
+
+
         </div>
     </script>
 

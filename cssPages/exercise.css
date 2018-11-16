@@ -1,0 +1,70 @@
+.wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.wrap{
+  padding: 30px;
+  border: 2px solid black;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.notes {
+  background: white;
+  border-radius: 20px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 5px;
+  background-color: #B4AC96;
+  text-align: center;
+  color: white;
+  border-radius: 20px 20px 0 0;
+}
+
+ul {
+    padding-top: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+ul li {
+  list-style-type: none;
+    background: #cce5ff;
+    margin: 4px;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.exercisesandvideos {
+  background: white;
+  border-radius: 20px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+}
+
+.exercisesandvideos h3{
+  text-align: center;
+  padding: 5px;
+}
+
+.exercisesandvideos h4{
+  text-align: center;
+  padding: 5px;
+}
