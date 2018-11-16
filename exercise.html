@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="./cssPages/exercise.css">
   <link rel="stylesheet" href="./cssTools/headerfooter.css">
   <link rel="stylesheet" href="./cssTools/navigation.css">
-
+  <link rel="stylesheet" href="./cssTools/linklist.css">
   <script src="https://code.jquery.com/jquery.js"></script>
   <script src="handlebars-v4.0.11.js"></script>
   <script src="./js/navigation.js"></script>
@@ -36,6 +36,7 @@
     <!-- Entry template --> <!-- dont touch script tags -->
     <script id="entry-template" type="text/x-handlebars-template">
       <div class='project'> <!-- don't touch class -->
+
           {{!-- {{Title and Notes}} --}}
           <h1 class="pageTitle">{{name}}</h1>
 
@@ -51,29 +52,28 @@
 <div class="exercisesandvideos"> <!-- CSS STYLING -->
   <h2>Exercises</h2>
           {{!-- {{Exercises and Videos}} --}}
-
+          <div class="wrapper">
             {{#exercises}}
+            <div class="wrap">
             {{#exercise}}
-
               <h3>{{names}}</h3>
-              <span>{{sets}}
-                <iframe width="560" height="349" src="{{video}}"></iframe>
-              </span>
-
-
-
-
-
-
+              <h4>{{sets}}</h4>
+                <div class="videoWrapper">
+                <iframe src="{{video}}"></iframe>
+              </div>
             {{/exercise}}
-            {{/exercises}}
+            </div><!-- end Wrap -->
 
+            {{/exercises}}
+</div><!-- end Wrapping -->
           </div><!-- end CSS STYLING -->
 
         </div>
     </script>
 
-  <div id="templatedExercises"></div> <!-- don't touch id -->
+  <div id="templatedExercises">
+
+  </div> <!-- don't touch id -->
 
   </div> <!-- end of div main -->
 

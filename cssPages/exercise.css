@@ -1,13 +1,12 @@
 .wrapper{
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
 .wrap{
   padding: 30px;
-  border: 2px solid black;
   font-family: sans-serif;
   text-align: center;
 }
@@ -67,4 +66,26 @@ ul li {
 .exercisesandvideos h4{
   text-align: center;
   padding: 5px;
+}
+
+iframe{
+  width: 640px;
+  height: 360px;
+}
+
+@media screen and (max-width: 720px) {
+
+  wrapper{
+    width: 100%;
+  }
+    wrap{
+      width: 100%;
+      padding: 0;
+    }
+
+  iframe{
+    width: 100%;
+    height: 56.25%;
+  }
+
 }
