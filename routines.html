@@ -35,30 +35,35 @@
 
   <main class="wrapper">
     <div class="wrap">
-      <a class="hoverbutton" href="./exercise.html?project=Chest">Chest</a>
+      <a class="hoverbutton" href="?project=Chest">Chest</a>
     </div>
     <div class="wrap">
-      <a class="hoverbutton" href="./exercise.html?project=Shoulders">Shoulders</a>
+      <a class="hoverbutton" href="?project=Shoulders">Shoulders</a>
     </div>
     <div class="wrap">
-      <a class="hoverbutton" href="./exercise.html?project=Back">Back</a>
+      <a class="hoverbutton" href="?project=Back">Back</a>
     </div>
     <div class="wrap">
-      <a class="hoverbutton" href="./exercise.html?project=Legs">Legs</a>
+      <a class="hoverbutton" href="?project=Legs">Legs</a>
     </div>
     <div class="wrap">
-      <a class="hoverbutton" href="./exercise.html?project=Arms">Arms</a>
+      <a class="hoverbutton" href="?project=Arms">Arms</a>
     </div>
 </main>
       <!-- Entry template -->
       <!-- don't touch id -->
       <script id="entry-template" type="text/x-handlebars-template">
         <div class='project'> <!-- don't touch -->
-            <a href="./exercise.html?project={{name}}">{{name}}</a>
+<div class="float">
+  <a class="exit-button" onclick="goBackRoutine()"><img src="./images/exit.png" alt="close"></img></a>
+            <h2>{{name}}</h2>
             <p>{{description}}</p>
-            <button class="back-button" onclick="goBackRoutine()">Hide</a>
-          </div>
+
+<a href="./exercise.html?project={{name}}" class="gobutton">Check it Out</a>
+</div>
+</div>
       </script>
+
 
     <div id="templatedExercises"> <!-- don't touch -->
 
