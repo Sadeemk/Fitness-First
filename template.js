@@ -54,31 +54,31 @@ var json = [
       {"exercise": [
           {"names": "Dumbbell Shoulder Press"},
           {"sets": "4 sets x 6-8 reps"},
-          {"video": "https://www.youtube.com/embed/gRVjAtPip0Y"}
+          {"video": "https://www.youtube.com/embed/qEwKCR5JCog"}
         ]
       },
       {"exercise": [
           {"names": "Upright Barbell Row"},
           {"sets": "3 sets x 8-10 reps"},
-          {"video": "https://www.youtube.com/embed/SrqOu55lrYU"}
+          {"video": "https://www.youtube.com/embed/amCU-ziHITM"}
         ]
       },
       {"exercise": [
           {"names": "Seated Bent-Over Rear Delt Raise"},
           {"sets": "3 sets x 8-10 reps"},
-          {"video": "https://www.youtube.com/embed/xK9zpXvjFUg"}
+          {"video": "https://www.youtube.com/embed/H530fW3kWfk"}
         ]
       },
       {"exercise": [
           {"names": "Side Lateral Raise"},
           {"sets": "3 sets x 10-12 reps"},
-          {"video": "https://www.youtube.com/embed/xK9zpXvjFUg"}
+          {"video": "https://www.youtube.com/embed/3VcKaXpzqRo"}
         ]
       },
       {"exercise": [
           {"names": "Standing Front Barbell Raise Over Head"},
           {"sets": "3 sets x 12 reps"},
-          {"video": "https://www.youtube.com/embed/xK9zpXvjFUg"}
+          {"video": "https://www.youtube.com/embed/sT2q7elpVFs"}
         ]
       }
     ]
@@ -96,31 +96,31 @@ var json = [
       {"exercise": [
           {"names": "Bent Over Barbell Row"},
           {"sets": "3 sets x 6-8 reps"},
-          {"video": "https://www.youtube.com/embed/gRVjAtPip0Y"}
+          {"video": "https://www.youtube.com/embed/vT2GjY_Umpw"}
         ]
       },
       {"exercise": [
           {"names": "Seated Cable Rows"},
           {"sets": "3 sets x 10-12 reps"},
-          {"video": "https://www.youtube.com/embed/SrqOu55lrYU"}
+          {"video": "https://www.youtube.com/embed/xQNrFHEMhI4"}
         ]
       },
       {"exercise": [
           {"names": "V-Bar Pulldown"},
           {"sets": "3 sets x 8-10 reps"},
-          {"video": "https://www.youtube.com/embed/xK9zpXvjFUg"}
+          {"video": "https://www.youtube.com/embed/-HA56qLRK84"}
         ]
       },
       {"exercise": [
           {"names": "Barbell Shrug"},
           {"sets": "3 sets x 6-8 reps"},
-          {"video": "https://www.youtube.com/embed/xK9zpXvjFUg"}
+          {"video": "https://www.youtube.com/embed/NAqCVe2mwzM"}
         ]
       },
       {"exercise": [
           {"names": "Hyperextensions (Back Extensions)"},
           {"sets": "3 sets x 12 reps"},
-          {"video": "https://www.youtube.com/embed/xK9zpXvjFUg"}
+          {"video": "https://www.youtube.com/embed/CgbmrF-DRSE"}
         ]
       }
     ]
@@ -137,37 +137,37 @@ var json = [
       {"exercise": [
           {"names": "Barbell Squat"},
           {"sets": "4 sets x 6-8 reps"},
-          {"video": "https://www.youtube.com/embed/gRVjAtPip0Y"}
+          {"video": "https://www.youtube.com/embed/SW_C1A-rejs"}
         ]
       },
       {"exercise": [
           {"names": "Dumbbell Lunges"},
           {"sets": "4 sets x 12 reps"},
-          {"video": "https://www.youtube.com/embed/SrqOu55lrYU"}
+          {"video": "https://www.youtube.com/embed/D7KaRcUTQeE"}
         ]
       },
       {"exercise": [
           {"names": "Leg Press"},
           {"sets": "3 sets x 8-10 reps"},
-          {"video": "https://www.youtube.com/embed/xK9zpXvjFUg"}
+          {"video": "https://www.youtube.com/embed/IZxyjW7MPJQ"}
         ]
       },
       {"exercise": [
           {"names": "Lying Leg Curls"},
           {"sets": "3 sets x 12 reps"},
-          {"video": "https://www.youtube.com/embed/xK9zpXvjFUg"}
+          {"video": "https://www.youtube.com/embed/1Tq3QdYUuHs"}
         ]
       },
       {"exercise": [
           {"names": "Leg Extensions"},
           {"sets": "3 sets x 20 reps"},
-          {"video": "https://www.youtube.com/embed/xK9zpXvjFUg"}
+          {"video": "https://www.youtube.com/embed/YyvSfVjQeL0"}
         ]
       },
       {"exercise": [
           {"names": "Standing Calf Raises"},
           {"sets": "4 sets x 12 reps"},
-          {"video": "https://www.youtube.com/embed/xK9zpXvjFUg"}
+          {"video": "https://www.youtube.com/embed/YMmgqO8Jo-k"}
         ]
       }
     ]
@@ -182,30 +182,31 @@ var json = [
       {"exercise": [
           {"names": "Incline Dumbbell Curl"},
           {"sets": "4 sets x 10 reps"},
-          {"video": "https://www.youtube.com/embed/gRVjAtPip0Y"}
+          {"video": "https://www.youtube.com/embed/soxrZlIl35U"}
         ]
       },
       {"exercise": [
           {"names": "Hammer Curls"},
           {"sets": "4 sets x 10 reps"},
-          {"video": "https://www.youtube.com/embed/SrqOu55lrYU"}
+          {"video": "https://www.youtube.com/embed/zC3nLlEvin4"}
         ]
       },
       {"exercise": [
           {"names": "Close-Grip EZ Bar Curl"},
           {"sets": "4 sets x 10 reps"},
-          {"video": "https://www.youtube.com/embed/xK9zpXvjFUg"}
+          {"video": "https://www.youtube.com/embed/o74HeVd6BIw"}
         ]
       },
       {"exercise": [
           {"names": "EZ-Bar Curl"},
           {"sets": "5 sets x 12, 10, 8, 8, 6 reps"},
-          {"video": "https://www.youtube.com/embed/xK9zpXvjFUg"}
+          {"video": "https://www.youtube.com/embed/prAKEcaMbRo"}
         ]
       }
     ]
   }
 ]
+
 
 var queryParams = new URLSearchParams(window.location.search);
 var projectTitle = queryParams.get('project');
