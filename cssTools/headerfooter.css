@@ -9,7 +9,10 @@
     color: #4C4948;
 }
 
-
+.subtitle {
+  text-align: center;
+  padding: 5px;
+}
 
 
 header {
