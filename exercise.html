@@ -35,18 +35,18 @@
 
     <!-- Entry template --> <!-- dont touch script tags -->
     <script id="entry-template" type="text/x-handlebars-template">
-      <div class='project'> <!-- don't touch class -->
+      <div class="project"> <!-- don't touch class -->
 
           {{!-- {{Title and Notes}} --}}
           <h1 class="pageTitle">{{name}}</h1>
 
 <div class="notes"> <!-- CSS STYLING -->
   <h2>Tips</h2>
-          {{#notes}}
           <ul>
+          {{#notes}}
             <li>{{note}}</li>
-          </ul>
           {{/notes}}
+          </ul>
 </div><!-- end CSS STYLING -->
 
 <div class="exercisesandvideos"> <!-- CSS STYLING -->
@@ -54,14 +54,17 @@
           {{!-- {{Exercises and Videos}} --}}
           <div class="wrapper">
             {{#exercises}}
+
             <div class="wrap">
-            {{#exercise}}
-              <h3>{{names}}</h3>
+              {{#exercise}}
+
+                <h3>{{names}}</h3>
               <h4>{{sets}}</h4>
                 <div class="videoWrapper">
                 <iframe src="{{video}}"></iframe>
+                {{/exercise}}
               </div>
-            {{/exercise}}
+
             </div><!-- end Wrap -->
 
             {{/exercises}}
