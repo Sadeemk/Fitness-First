@@ -3,17 +3,22 @@
     transition-duration: 0.4s;
     cursor: pointer;
     display: inline-block;
-    padding: 40px;
-    width: 150px;
+    padding: 0;
+		width: 280px;
+		line-height: 100px;
 
     background-color: #2E93A4;
     border: 2px solid #2E93A4;
     border-radius: 20px;
 
-    font-size: 30px;
     color: white;
     text-align: center;
     text-decoration: none;
+		align-items: center;
+		font-size: 30px;
+		overflow: hidden;
+		white-space: nowrap;
+
 }
 
 .hoverbutton:hover {

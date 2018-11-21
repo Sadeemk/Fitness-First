@@ -214,7 +214,65 @@ var json = [
         }
       }
     ]
-  }
+  },
+
+
+  {
+      "name": "Circuit Training",
+      "description": "Circuit training is an interval-based workout program. You complete several different exercises in rapid succession, with short rests in between. Generally, you'll perform each exercise at a high intensity for a set period of time or set number of reps.",
+      "notes": [
+          {"note": "Circuit training is simply a workout based around a set number of stations that you repeat until your time runs out."},
+          {"note":"Knowing how much time you have can help you determine how many circuits you'll need to complete and how hard you'll need to work."},
+          {"note":"The shorter the workout, the harder you should be pushing. Anywhere from 10 to 45 minutes is ideal for circuit training."}
+      ],
+      "exercises": [
+        {"exercise": {
+            "names": "Getting Started",
+            "sets": "Step 1: Select your time limit. \nStep 2: Pick an upper-body exercise. \n Step 3: Pick a lower-body exercise.\nStep 4: Pick a compound exercise. \nStep 5: Choose a sprint for 1 minute. \nStep 6: Rest for 1 minute.",
+            "video": "https://www.youtube.com/embed/io-G_0qRTL4"
+          },
+        }
+      ]
+    },
+
+  {
+      "name": "Long Distance Run",
+      "description": "Good running technique can help reduce your risk of injury and make your runs feel less tiring and more enjoyable.",
+      "notes": [
+          {"note": "Look straight ahead of you, about 30 to 40 metres out in front, and avoid looking down at your feet."},
+          {"note":"Your shoulders should be back and down. Keep them relaxed and avoid tensing them. Don't hunch over as this restricts breathing, allowing less oxygen to get to the muscles."},
+          {"note":"Your hands should be relaxed, but don't let them flop. Tight hands can cause tension all the way up to the back and shoulders."},
+  	{"note":"Whether you breathe through your nose or mouth, try to breathe deeply and rhythmically. Avoid shallow and quick breaths. Try to aim for one breath for every two strides, but don't be afraid to try longer breathing."}
+      ],
+      "exercises": [
+        {"exercise": {
+            "names": "Before you Start",
+            "sets": "You need to be properly warmed up. \nTHIS IS VERY IMPORTANT: don’t do too much too soon or you WILL hurt yourself. \nSet an ambitious, but realistic goal. \nRun!",
+            "video": "https://www.youtube.com/embed/5umbf4ps0GQ"
+          },
+        }
+      ]
+    },
+
+  {
+      "name": "Interval Training",
+      "description": "Interval training is when you alternate periods of moderate- to high-intensity work with periods of either active or passive rest. Unlike circuit training, interval training has less to do with what you're doing and, instead, is mostly about the intensity of what you're doing.",
+      "notes": [
+          {"note": "Choose strategically between active and passive rest: If you're doing a particularly difficult move you'll probably need to gulp some water and catch your breath during the rest interval."},
+          {"note":"A good week would be maybe two days of circuit training at a relatively moderate intensity, and two or three days of interval training at a moderate to high intensity."},
+          {"note":"If you do too much high-intensity training it could cause overtraining, which can cause adrenal fatigue and disrupt the hormone balance in your body."}
+      ],
+      "exercises": [
+        {"exercise": {
+            "names": "Getting Started",
+            "sets": "Try a 20 to 30-minute routine that mixes and matches these great interval exercise options. Start with a 5-minute warm-up and move into short high-intensity intervals. Each interval can last from 30 seconds to two minutes, with a minute of easy walking between reps. Go for about 20 minutes then cool down. It's a quick and effective workout.",
+            "video": "https://www.youtube.com/embed/DuYmoD8IQgM"
+          },
+        }
+      ]
+    },
+
+
 ]
 
 
