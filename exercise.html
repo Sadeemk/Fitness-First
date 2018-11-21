@@ -9,12 +9,13 @@
   <link rel="stylesheet" href="./cssTools/headerfooter.css">
   <link rel="stylesheet" href="./cssTools/navigation.css">
   <link rel="stylesheet" href="./cssTools/linklist.css">
+  <link rel="stylesheet" href="./cssTools/toTopButton.css">
   <script src="https://code.jquery.com/jquery.js"></script>
   <script src="handlebars-v4.0.11.js"></script>
   <script src="./js/navigation.js"></script>
   <script src="template.js"></script> <!-- tailing script tags -->
   <script src="./js/goBack.js"></script>
-
+  <script src="./js/toTopButton.js"></script>
 
 </head>
 
@@ -30,7 +31,9 @@
 		<span onclick="openNav()"><img src="./images/navicon.png"></img></span>
 	<h1>Fitness First</h1>
 </header>
-<button onclick="goBack()">Back</button>
+
+
+<button onclick="goBack()" class="backbutton">Back</button>
 
 
     <!-- Entry template --> <!-- dont touch script tags -->
@@ -79,6 +82,8 @@
   </div> <!-- don't touch id -->
 
   </div> <!-- end of div main -->
+
+<button onclick="topFunction()" id="topBtn" title="Go to top">Top</button>
 
   <footer>
   	<p>Copyright UCSD 2018</p>
