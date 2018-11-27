@@ -61,14 +61,12 @@
             <div class="wrap">
               {{#exercise}}
 
-                <button onclick="display({{@index}})">{{names}}</button>
-                  <div style="display: none;" id="{{@index}}">
-                      <h4>{{sets}}</h4>
-                        <div class="videoWrapper">
-                          <iframe src="{{video}}" allowfullscreen></iframe>
-                    {{/exercise}}
-                  </div>
-            </div>
+                <h3>{{names}}</h3>
+              <h4>{{sets}}</h4>
+                <div class="videoWrapper">
+                <iframe src="{{video}}" allowfullscreen></iframe>
+                {{/exercise}}
+              </div>
 
             </div><!-- end Wrap -->
 
@@ -92,16 +90,5 @@
   </footer>
 
 </body>
-<script type="text/javascript">
-function display(idx) {
-    var x = document.getElementById(idx);
-    if (x.style.display === "none") {
-        x.style.display = "block";
-    } else {
-        x.style.display = "none";
-    }
-}
-</script>
-
 
 </html>

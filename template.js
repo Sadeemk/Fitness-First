@@ -275,10 +275,11 @@ var json = [
 
 ]
 
-
 var queryParams = new URLSearchParams(window.location.search);
 var projectTitle = queryParams.get('project');
 console.log('query for', projectTitle);
+
+
 
 /* github JSON call not working
 $.getJSON("http://penarichard53.github.io/fitness-first/exercise.json", function(data) {
@@ -298,7 +299,6 @@ $(document).ready(function () {
   var source    = $('#entry-template').html();
   var template  = Handlebars.compile(source);
   var parentDiv = $("#templatedExercises");
-  // parentDiv.append(html);
 
   for(var i = 0; i < json.length; i++){
     var curData = json[i];
@@ -309,4 +309,8 @@ $(document).ready(function () {
     }
     // console.log(curData);
   }
+
+
+
+
 });
