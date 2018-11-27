@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>FitnessFirst | Exercise</title>
-  <link rel="stylesheet" href="./cssPages/exercise_old.css">
+  <link rel="stylesheet" href="./cssPages/exercise.css">
   <link rel="stylesheet" href="./cssTools/headerfooter.css">
   <link rel="stylesheet" href="./cssTools/navigation.css">
   <link rel="stylesheet" href="./cssTools/linklist.css">
@@ -17,6 +17,7 @@
   <script src="./js/goBack.js"></script>
   <script src="./js/toTopButton.js"></script>
 
+  <link rel="stylesheet" href="./cssTools/accordion.css">
 </head>
 
 <body>
@@ -36,6 +37,8 @@
 <button onclick="goBack()" class="backbutton">Back</button>
 
 
+
+
     <!-- Entry template --> <!-- dont touch script tags -->
     <script id="entry-template" type="text/x-handlebars-template">
       <div class="project"> <!-- don't touch class -->
@@ -43,43 +46,53 @@
           {{!-- {{Title and Notes}} --}}
           <h1 class="pageTitle">{{name}}</h1>
 
-<div class="notes"> <!-- CSS STYLING -->
-  <h2>Tips</h2>
-          <ul>
-          {{#notes}}
-            <li>{{note}}</li>
-          {{/notes}}
-          </ul>
-</div><!-- end CSS STYLING -->
-
-<div class="exercisesandvideos"> <!-- CSS STYLING -->
+<div> <!-- CSS STYLING -->
+  <div class="exercisesandvideos">
   <h2>Exercises</h2>
           {{!-- {{Exercises and Videos}} --}}
-          <div class="wrapper">
             {{#exercises}}
-
-            <div class="wrap">
               {{#exercise}}
 
-                <h3>{{names}}</h3>
-              <h4>{{sets}}</h4>
-                <div class="videoWrapper">
-                <iframe src="{{video}}" allowfullscreen></iframe>
+              <button class="accordion">{{names}}</button>
+              <div class="panel">
+                <h4>{{sets}}</h4>
+                  <div class="videoWrapper">
+                  <iframe src="{{video}}" allowfullscreen></iframe>
+              </div><!-- end panel -->
                 {{/exercise}}
               </div>
-
-            </div><!-- end Wrap -->
-
             {{/exercises}}
-</div><!-- end Wrapper -->
+          </div> <!-- end exercisesandvideos -->
           </div><!-- end CSS STYLING -->
-
         </div>
+
+
+        <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.maxHeight){
+              panel.style.maxHeight = null;
+            } else {
+              panel.style.maxHeight = panel.scrollHeight + "px";
+            }
+          });
+        }
+        </script>
+
+
     </script>
 
-  <div id="templatedExercises">
 
-  </div> <!-- don't touch id -->
+    <div id="templatedExercises">
+    </div> <!-- don't touch id -->
+
+
+
 
   </div> <!-- end of div main -->
 
@@ -88,6 +101,9 @@
   <footer>
   	<p>Copyright UCSD 2018</p>
   </footer>
+
+
+
 
 </body>
 
