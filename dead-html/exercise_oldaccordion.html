@@ -17,7 +17,6 @@
   <script src="./js/goBack.js"></script>
   <script src="./js/toTopButton.js"></script>
 
-  <link rel="stylesheet" href="./cssTools/accordion.css">
 </head>
 
 <body>
@@ -37,8 +36,6 @@
 <button onclick="goBack()" class="backbutton">Back</button>
 
 
-
-
     <!-- Entry template --> <!-- dont touch script tags -->
     <script id="entry-template" type="text/x-handlebars-template">
       <div class="project"> <!-- don't touch class -->
@@ -46,53 +43,44 @@
           {{!-- {{Title and Notes}} --}}
           <h1 class="pageTitle">{{name}}</h1>
 
-<div> <!-- CSS STYLING -->
-  <div class="exercisesandvideos">
+<div class="notes"> <!-- CSS STYLING -->
+  <h2>Tips</h2>
+          <ul>
+          {{#notes}}
+            <li>{{note}}</li>
+          {{/notes}}
+          </ul>
+</div><!-- end CSS STYLING -->
+
+<div class="exercisesandvideos"> <!-- CSS STYLING -->
   <h2>Exercises</h2>
           {{!-- {{Exercises and Videos}} --}}
+          <div class="wrapper">
             {{#exercises}}
+
+            <div class="wrap">
               {{#exercise}}
 
-              <button class="accordion">{{names}}</button>
-              <div class="panel">
-                <h4>{{sets}}</h4>
-                  <div class="videoWrapper">
-                  <iframe src="{{video}}" allowfullscreen></iframe>
-              </div><!-- end panel -->
-                {{/exercise}}
-              </div>
+                <button onclick="display({{@index}})">{{names}} <br> {{sets}}</button>
+                  <div style="display: none;" id="{{@index}}">
+                        <div class="videoWrapper">
+                          <iframe src="{{video}}" allowfullscreen></iframe>
+                    {{/exercise}}
+                  </div>
+            </div>
+
+            </div><!-- end Wrap -->
+
             {{/exercises}}
-          </div> <!-- end exercisesandvideos -->
+</div><!-- end Wrapper -->
           </div><!-- end CSS STYLING -->
+
         </div>
-
-
-        <script>
-        var acc = document.getElementsByClassName("accordion");
-        var i;
-
-        for (i = 0; i < acc.length; i++) {
-          acc[i].addEventListener("click", function() {
-            this.classList.toggle("active");
-            var panel = this.nextElementSibling;
-            if (panel.style.maxHeight){
-              panel.style.maxHeight = null;
-            } else {
-              panel.style.maxHeight = panel.scrollHeight + "px";
-            }
-          });
-        }
-        </script>
-
-
     </script>
 
+  <div id="templatedExercises">
 
-    <div id="templatedExercises">
-    </div> <!-- don't touch id -->
-
-
-
+  </div> <!-- don't touch id -->
 
   </div> <!-- end of div main -->
 
@@ -102,9 +90,17 @@
   	<p>Copyright UCSD 2018</p>
   </footer>
 
-
-
-
 </body>
+<script type="text/javascript">
+function display(idx) {
+    var x = document.getElementById(idx);
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+</script>
+
 
 </html>
