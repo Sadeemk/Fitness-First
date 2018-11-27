@@ -52,19 +52,37 @@
           {{!-- {{Exercises and Videos}} --}}
             {{#exercises}}
               {{#exercise}}
-
               <button class="accordion">{{names}}</button>
               <div class="panel">
+
                 <h4>{{sets}}</h4>
-                  <div class="videoWrapper">
+
+                <ul>
+                {{#notes}}
+                  <h3>Tip</h3>
+                  <li>{{note}}</li>
+                {{/notes}}
+                </ul>
+
+            <div class="wrapper">
+                <div class="wrap">
+                <img src="{{image}}"></img>
+                </div>
+                <div class="wrap">
                   <iframe src="{{video}}" allowfullscreen></iframe>
-              </div><!-- end panel -->
+                </div><!-- end wrap -->
+
+
+
                 {{/exercise}}
-              </div>
+
+              </div> <!-- end panel -->
+          </div> <!-- end wrapper -->
             {{/exercises}}
+
           </div> <!-- end exercisesandvideos -->
           </div><!-- end CSS STYLING -->
-        </div>
+        </div><!-- don't touch class -->
 
 
         <script>
