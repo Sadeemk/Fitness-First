@@ -3,7 +3,7 @@ var json;
 var json = [
   {
     "name": "Chest",
-    "description": "The workout here follows a reverse-pyramid protocol, which allows you to take more total sets to muscle failure. It also starts with the dumbbell bench press rather than the barbell, because dumbbells are more difficult to control—extra difficulty is a good thing in this case—and allow for a greater range of motion. Many people find that just making that switch is enough to spur new growth.",
+    "description": "The workout here follows a reverse-pyramid protocol, which allows you to take more total sets to muscle failure. It also starts with the dumbbell bench press rather than the barbell. Many people find that just making that switch is enough to spur new growth.",
 
     "exercises": [
       {"exercise": {
@@ -56,7 +56,7 @@ var json = [
 
   {
     "name": "Shoulders",
-    "description": "Because the front delts get so much work on chest day, and the middle delts take the brunt of the weight on overhead pressing moves, it's not uncommon for the rear delts to be the smallest—and weakest—of the three. In this workout, you'll do them before the other two, while you have a bit more energy in the tank. Feel free to rearrange the order of the single-joint moves based on your weaknesses, though. If you judge your delts to be fairly balanced, simply rotate the order of the single-joint movements from one workout to the next.",
+    "description": "In this workout, you'll do front delts before the middle and rear delts, while you have a bit more energy in the tank. Feel free to rearrange the order of the single-joint moves based on your weaknesses. If you judge your delts to be fairly balanced, simply rotate the order of the single-joint movements from one workout to the next.",
 
     "exercises": [
       {"exercise": {
@@ -163,7 +163,7 @@ var json = [
 
   {
     "name": "Legs",
-    "description": "As you can see from the anatomy info above, there are a lot of muscles that make up the legs. The legs are used daily for basic activities like walking, standing, going upstairs, or just getting up from a chair. What does this mean to you as a trainer? If you are looking to put size on your legs, half ass workouts will not do anything; your legs are accustomed to working all day. Only dedication to intense hard work in the gym will break down the dense thick muscle fibers of the legs and their only choice will be to get bigger and stronger. You need to force your legs to grow. Your legs will resist you. They will burn, shake and burn some more while you work out, but you need to push through and want more, as this is the only way to make your legs grow.",
+    "description": "The legs are used daily for basic activities like walking, standing, going upstairs, or just getting up from a chair. Only dedication to intense hard work in the gym will break down the dense thick muscle fibers of the legs. You need to push through if you want to bulk up, as this is the only way to make your legs grow.",
 
     "exercises": [
       {"exercise": {
@@ -225,7 +225,7 @@ var json = [
 
   {
     "name": "Arms",
-    "description": "Measure yours—flexed, of course!—with a tape at the peak before and after a few weeks under this protocol. The supersets will leave you gassed, so don't expect to move much weight in the skullcrushers and close-grip bench at the end! This routine is meant to plug into your existing workout using the classic \"bis with back, tris with chest\" split. You use your biceps heavily in pulling lifts like pull-ups, rows, and even deadlifts, while your triceps play a major role in all manner of push motions, from the bench to the military press.",
+    "description": "This routine is meant to plug into your existing workout using the classic \"bis with back, tris with chest\" split. You use your biceps heavily in pulling lifts like pull-ups, rows, and even deadlifts, while your triceps play a major role in all manner of push motions, from the bench to the military press.",
     "notes": [
         {"note": "Start with your big-ticket strength movements, then chase a pump to your heart's content. Take both equally seriously, and you'll see improvement in both your core lifts and your mirror muscles!"}
     ],
